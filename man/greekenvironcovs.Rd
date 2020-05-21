@@ -24,7 +24,8 @@ that NS winds might not be vertical wind.  I used the ICOADS data not the COADSs
 The boxes are 1 degree but on 1 degree centers not 0.5 centers.  Thus box is 39.5-40.5 not 39-40.
 
 The code to download the data
-```
+
+\code{
 library(RCurl)
 library(XML)
 library(stringr)
@@ -45,7 +46,7 @@ for(i in 1:3){
   for(j in 2:dim(cov)[2]) cov[,j] <- as.numeric(cov[,j])
   covs[[i]] <- cov
   }
-```
+}
 
 This created a list with 3 data.frames for each of the 3 boxes used in Stergiou and Christou. 
 These were then averaged together to create monthly and yearly means for the region.

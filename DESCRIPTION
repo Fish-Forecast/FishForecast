@@ -2,7 +2,7 @@ Package: FishForecast
 Title: Packages, data and scripts for Fisheries Catch Forecasting with R
 Version: 1.1
 Author: Eli Holmes
-Maintainer: <eli.holmes@noaa.gov>
+Maintainer: Eli Holmes <eeholmes@uw.edu>
 Description: This package that will load the needed packages and data files for the Fish Forecast course material when students install from GitHub.
 Depends: R (>= 3.4.1)
 Imports: 
@@ -33,4 +33,4 @@ Imports:
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.1.1
+RoxygenNote: 7.0.2

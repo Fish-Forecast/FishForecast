@@ -4,8 +4,11 @@
 \alias{download.repo}
 \title{Download a GitHup Repo}
 \usage{
-download.repo(repo, githuburl = "https://github.com/RVerse-Tutorials/",
-  clean = TRUE)
+download.repo(
+  repo,
+  githuburl = "https://github.com/RVerse-Tutorials/",
+  clean = TRUE
+)
 }
 \arguments{
 \item{repo}{The name of the repo in quotes}
