@@ -7,8 +7,10 @@
 \alias{chinook-month}
 \alias{chinook-year}
 \title{Monthly and annual Chinook salmon commercial landings}
-\format{Objects of class \code{"data.frame"}.  Columns are Year, 
-Month (if monthly), Species, State, log.metric.tons, metric.tons, and Value (USD)}
+\format{
+Objects of class \code{"data.frame"}.  Columns are Year, 
+Month (if monthly), Species, State, log.metric.tons, metric.tons, and Value (USD)
+}
 \source{
 \href{https://www.st.nmfs.noaa.gov/commercial-fisheries/commercial-landings/}{NOAA Commercial Landings Statistics}
 }

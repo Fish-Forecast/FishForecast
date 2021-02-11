@@ -6,8 +6,10 @@
 \alias{ecovsmean.mon}
 \alias{ecovsmean.year}
 \title{Environmental Covariates in Hellenic Waters 1964-2007}
-\format{Objects of class \code{"data.frame"}.  Columns are Year,
-       air.degC,     slp.millibars,     sst.degC,        vwnd.m/s,        wspd3.m3/s3.}
+\format{
+Objects of class \code{"data.frame"}.  Columns are Year,
+       air.degC,     slp.millibars,     sst.degC,        vwnd.m/s,        wspd3.m3/s3.
+}
 \source{
 \href{https://coastwatch.pfeg.noaa.gov/erddap/griddap/esrlIcoads1ge}{NOAA ERDDAP ICOADS data}
 }

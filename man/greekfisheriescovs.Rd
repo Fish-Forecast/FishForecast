@@ -4,12 +4,14 @@
 \name{greekfish.cov}
 \alias{greekfish.cov}
 \title{Fisheries Covariates in Hellenic Waters 1964-2007}
-\format{Objects of class \code{"data.frame"}.  Columns are "Year"              "Boats.BO"          "Trawlers.BOT"      "Purse.seiners.BOP" "Beach.seiners.BOB"
+\format{
+Objects of class \code{"data.frame"}.  Columns are "Year"              "Boats.BO"          "Trawlers.BOT"      "Purse.seiners.BOP" "Beach.seiners.BOB"
  "Other.BOC"         "Demersal.BOD"      "Fishers.FI"        "Trawlers.FIT"      "Purse.seiners.FIP"
   "Beach.seiners.FIB" "Other.FIC"         "Demersal.FID"      "Horsepower.HP"     "Trawler.HPT"      
    "Purse.seiners.HPP" "Beach.seiners.HPB" "Other.HPC"         "Demersal.HPD"      "Trawler.VAT"      
     "Purse.seiners.VAP" "Beach.seiners.VAB" "Other.VAC"         "Tonnage.TO"        "Trawlers.TOT"     
-     "Purse.seiners.TOP"}
+     "Purse.seiners.TOP"
+}
 \source{
 \href{http://dlib.statistics.gr/portal/page/portal/ESYE}{Hellenic Statisitcal Authority Digital Library}
 }
